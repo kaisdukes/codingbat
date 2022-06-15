@@ -2,7 +2,6 @@ package codingbat.warmup2;
 
 import org.junit.Test;
 
-import static codingbat.warmup1.BackAround.backAround;
 import static codingbat.warmup2.StringTimes.stringTimes;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
