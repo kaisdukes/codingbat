@@ -2,7 +2,6 @@ package codingbat.warmup1;
 
 import org.junit.Test;
 
-import static codingbat.warmup1.MonkeyTrouble.monkeyTrouble;
 import static codingbat.warmup1.ParrotTrouble.parrotTrouble;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;

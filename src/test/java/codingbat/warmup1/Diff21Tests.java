@@ -3,7 +3,6 @@ package codingbat.warmup1;
 import org.junit.Test;
 
 import static codingbat.warmup1.Diff21.diff21;
-import static codingbat.warmup1.MonkeyTrouble.monkeyTrouble;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
