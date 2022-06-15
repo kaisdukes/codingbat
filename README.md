@@ -1,2 +1,2 @@
-# codingbat
-Java coding practice
+# CodingBat
+Java exercises
