@@ -2,7 +2,6 @@ package codingbat.array1;
 
 import org.junit.Test;
 
-import static codingbat.array1.BiggerTwo.biggerTwo;
 import static codingbat.array1.SwapEnds.swapEnds;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
