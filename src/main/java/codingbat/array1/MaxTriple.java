@@ -2,9 +2,9 @@ package codingbat.array1;
 
 import static java.lang.Math.max;
 
-public class MaxThree {
+public class MaxTriple {
 
-    public static int maxThree(final int[] nums) {
+    public static int maxTriple(final int[] nums) {
         final var n = nums.length;
         return n == 1
                 ? nums[0]
