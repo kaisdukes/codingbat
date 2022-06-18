@@ -14,5 +14,6 @@ public class Has12Tests {
         assertThat(has12(new int[]{1, 3, 2}), is(equalTo(true)));
         assertThat(has12(new int[]{3, 1, 2}), is(equalTo(true)));
         assertThat(has12(new int[]{3, 1, 4, 5, 2}), is(equalTo(true)));
+        assertThat(has12(new int[]{2, 1, 4, 1, 6}), is(equalTo(false)));
     }
 }
