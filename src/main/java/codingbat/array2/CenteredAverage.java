@@ -6,7 +6,7 @@ public class CenteredAverage {
         var min = Integer.MAX_VALUE;
         var max = Integer.MIN_VALUE;
         var sum = 0;
-        for (var n : nums) {
+        for (final var n : nums) {
             if (n < min) min = n;
             if (n > max) max = n;
             sum += n;
