@@ -4,25 +4,25 @@ import org.junit.Test;
 
 import java.util.List;
 
-import static codingbat.ap1.WordsWithout.wordsWithout;
+import static codingbat.ap1.WordsWithoutList.wordsWithoutList;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
-public class WordsWithoutTests {
+public class WordsWithoutListTests {
 
     @Test
-    public void shouldReturnWordsWithout() {
+    public void shouldReturnWordsWithoutList() {
         assertThat(
-                wordsWithout(new String[]{"a", "bb", "b", "ccc"}, 1),
+                wordsWithoutList(new String[]{"a", "bb", "b", "ccc"}, 1),
                 is(equalTo(List.of("bb", "ccc"))));
 
         assertThat(
-                wordsWithout(new String[]{"a", "bb", "b", "ccc"}, 3),
+                wordsWithoutList(new String[]{"a", "bb", "b", "ccc"}, 3),
                 is(equalTo(List.of("a", "bb", "b"))));
 
         assertThat(
-                wordsWithout(new String[]{"a", "bb", "b", "ccc"}, 4),
+                wordsWithoutList(new String[]{"a", "bb", "b", "ccc"}, 4),
                 is(equalTo(List.of("a", "bb", "b", "ccc"))));
     }
 }
