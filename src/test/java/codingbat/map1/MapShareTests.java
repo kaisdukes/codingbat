@@ -1,4 +1,4 @@
-package codingbat.recursion2;
+package codingbat.map1;
 
 import org.junit.Test;
 
