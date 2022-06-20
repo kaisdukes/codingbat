@@ -2,7 +2,6 @@ package codingbat.map2;
 
 import org.junit.Test;
 
-import java.util.HashMap;
 import java.util.Map;
 
 import static codingbat.map2.Word0.word0;
