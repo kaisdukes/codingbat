@@ -3,13 +3,13 @@ package codingbat.map2;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Word0 {
+public class WordLen {
 
-    public static Map<String, Integer> word0(final String[] strings) {
+    public static Map<String, Integer> wordLen(final String[] strings) {
         final var map = new HashMap<String, Integer>();
         for (final var str : strings) {
             if (!map.containsKey(str)) {
-                map.put(str, 0);
+                map.put(str, str.length());
             }
         }
         return map;
