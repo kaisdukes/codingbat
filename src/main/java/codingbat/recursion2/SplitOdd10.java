@@ -7,10 +7,7 @@ public class SplitOdd10 {
     }
 
     private static boolean sumGroups(final int start, final int[] nums, final int sum1, final int sum2) {
-        if (start >= nums.length) {
-            return sum1 % 10 == 0 && sum2 % 2 == 1
-                    || (sum2 % 10 == 0 && sum1 % 2 == 1);
-        }
+        if (start >= nums.length) return sum1 % 10 == 0 && sum2 % 2 == 1;
         return sumGroups(start + 1, nums, sum1 + nums[start], sum2)
                 || sumGroups(start + 1, nums, sum1, sum2 + nums[start]);
     }
